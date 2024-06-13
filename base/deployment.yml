@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: cicd-web-project
-          image: 192.168.0.33/devops/cicd-web-project:testv1.2
+          image: 10.250.172.220/devops/cicd-web-project:testv1.2
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
